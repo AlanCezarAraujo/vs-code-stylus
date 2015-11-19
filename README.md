@@ -12,7 +12,7 @@ Open up VS Code and hit F1 then type *ext*, select *install* and type *stylus*. 
 
 ## Missing properties? Suggestions? Problems?
 
-Talk to me on twitter or feel free to change the source.
+Talk to me on [twitter](https://twitter.com/AlanCezarAraujo) or feel free to change the [source](https://github.com/AlanCezarAraujo/vs-code-stylus).
 
 ## Credits
 Many thanks to
