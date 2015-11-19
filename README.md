@@ -1,6 +1,8 @@
 # Stylus Support for Visual Studio Code
 
-Simple syntax coloring and nice code snnipets based on [Stylus Clean Completions](https://github.com/lnikell/stylus-clean-completions).
+Simple syntax coloring and nice code snippets based on [Stylus Clean Completions](https://github.com/lnikell/stylus-clean-completions).
+
+![screenshot](images/screenshot.jpg)
 
 ## Install
 
@@ -8,7 +10,7 @@ Open up VS Code and hit F1 then type *ext*, select *install* and type *stylus*. 
 
 ## What you get:
 * Syntax coloring
-* Code Snnipets
+* Code Snippets
 
 ## Missing properties? Suggestions? Problems?
 
