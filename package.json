@@ -1,0 +1,44 @@
+{
+	"name": "stylus",
+	"description": "Stylus Language Support",
+	"version": "0.0.2",
+	"publisher": "Alan",
+	"icon": "images/stylus_icon.svg",
+	"galleyBanner": {
+		"color": "#FBFBFB",
+		"theme": "dark"
+	},
+	"bugs": {
+        "url": "https://github.com/AlanCezarAraujo/vs-code-stylus/issues"
+    },
+    "homepage": "https://github.com/AlanCezarAraujo/vs-code-stylus/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AlanCezarAraujo/vs-code-stylus.git"
+    },
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "stylus",
+			"aliases": ["Stylus", "stylus"],
+			"extensions": [".styl",".stylus"],
+			"configuration": "./stylus.configuration.json"
+		}],
+		"grammars": [{
+			"language": "stylus",
+			"scopeName": "source.stylus",
+			"path": "./syntaxes/stylus.tmLanguage"
+		}],
+		"snippets": [
+			{
+				"language": "stylus",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}

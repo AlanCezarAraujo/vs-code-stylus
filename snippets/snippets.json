@@ -1,0 +1,475 @@
+{
+	"background": {
+        "prefix": "background",
+        "body": [ "background ${1:color} url('${2:image}') ${3:position} ${4:repeat}" ],
+        "description": "e.g. background #fff url('path/to/image.png') no-repeat"
+    },
+
+	"background-size": {
+		"prefix": "background-size",
+		"body": [ "background-size ${1:cover}" ],
+		"description": "e.g. background cover"
+	},
+
+	"background-image": {
+		"prefix": "background-image",
+		"body": [ "background-image url('${1:image}')" ],
+		"description:": "e.g. background-image url('path/to/image.png')"
+	},
+
+	"background-position": {
+		"prefix": "background-position",
+		"body": [ "background-position ${1:position} ${2:position}" ],
+		"description:": "e.g. background-position 10px 20px"
+	},
+
+	"background-repeat": {
+		"prefix": "background-repeat",
+		"body": [ "background-repeat ${1:repeat}" ],
+		"description": "e.g. background-repeat no-repeat"
+	},
+
+	"background-color": {
+		"prefix": "background-color",
+		"body": [ "background-color ${1:color}" ],
+		"description": "e.g. background-color #45454"
+	},
+
+	"background-attachment": {
+		"prefix": "background-attachment",
+		"body": [ "background-attachment ${1:fixed}" ],
+		"description": "e.g. background-attachment fixed"
+	},
+
+	"border": {
+		"prefix": "border",
+		"body": [ "border ${1:width} ${2:style} ${3:color}" ],
+		"description": "e.g. border 1px solid #454545"
+	},
+
+	"border-top": {
+		"prefix": "border-top",
+		"body": [ "border-top ${1:value}" ],
+		"description": "e.g. border-top 1px"
+	},
+
+	"border-bottom": {
+		"prefix": "border-bottom",
+		"body": [ "border-bottom ${1:width} ${2:style} ${3:color}" ],
+		"description": "e.g. border-bottom 1px solid #454545"
+	},
+
+	"border-right": {
+		"prefix": "border-right",
+		"body": [ "border-right ${1:width} ${2:style} ${3:color}" ],
+		"description": "e.g. border-right 1px dotted #000"
+	},
+
+	"border-left": {
+		"prefix": "border-left",
+		"body": [ "border-left ${1:width} ${2:style} ${3:color}" ],
+		"description": "e.g. border-left 1px dotted #000}"
+	},
+
+	"border-color": {
+		"prefix": "border-color",
+		"body": [ "border-color ${1:color}" ],
+		"description": "e.g. border-color #f0f0f0"
+	},
+
+	"border-radius": {
+		"prefix": "border-radius",
+		"body": [ "border-radius ${1:radius}" ],
+		"description": "e.g. border-radius 50%"
+	},
+
+	"box-shadow": {
+		"prefix": "box-shadow",
+		"body": [ "box-shadow ${1:x} ${2:y} ${3:blur} ${4:spread} ${5:color}" ],
+		"description": "e.g. box-shadow 1px 1px 1px 1px #444"
+	},
+
+	"box-sizing": {
+		"prefix": "box-sizing",
+		"body": [ "box-sizing ${1:border-box}" ],
+		"description": "e.g. box-sizing content-box"
+	},
+
+	"bottom": {
+		"prefix": "bottom",
+		"body": [ "bottom ${1:0px}" ],
+		"description": "e.g. bottom 1px"
+	},
+
+	"color": {
+		"prefix": "color",
+		"body": [ "color ${1:color}" ],
+		"description": "e.g. color #000"
+	},
+
+	"cursor": {
+		"prefix": "cursor",
+		"body": [ "cursor ${1:pointer}" ],
+		"description": "e.g. cursor pointer"
+	},
+
+	"clear": {
+		"prefix": "clear",
+		"body": [ "clear ${1:both}" ],
+		"description": "e.g. clear both"
+	},
+
+	"display": {
+		"prefix": "display",
+		"body": [ "display ${1:block}" ],
+		"description": "e.g. display block"
+	},
+
+	"float": {
+		"prefix": "float",
+		"body": [ "float ${1:left}" ],
+		"description": "e.g. float left"
+	},
+
+	"font-family": {
+		"prefix": "font-family",
+		"body": [ "font-family ${1:font}" ],
+		"description": "e.g. font-family Verdana, Helvetica, sans-serif"
+	},
+
+	"font-size": {
+		"prefix": "font-size",
+		"body": [ "font-size ${1:size}" ],
+		"description": "e.g. font-size 16px"
+	},
+
+	"font-style": {
+		"prefix": "font-style",
+		"body": [ "font-style ${1:italic}" ],
+		"description": "e.g. font-style italic"
+	},
+
+	"font-weight": {
+		"prefix": "font-weight",
+		"body": [ "font-weight ${1:bold}" ],
+		"description": "e.g. font-weight bold"
+	},
+
+	"height": {
+		"prefix": "height",
+		"body": [ "height ${1:value}" ],
+		"description": "e.g. height 4em"
+	},
+
+	"left": {
+		"prefix": "left",
+		"body": [ "left ${1:0px}" ],
+		"description": "e.g. left 10px"
+	},
+
+	"line-height": {
+		"prefix": "line-height",
+		"body": [ "line-height ${1:value}" ],
+		"description": "e.g. line-height 3em"
+	},
+
+	"list-style": {
+		"prefix": "list-style",
+		"body": [ "list-style ${1:none}" ],
+		"description": "e.g. list-style none"
+	},
+
+	"margin": {
+		"prefix": "margin",
+		"body": [ "margin ${1:top} ${2:right} ${3:bottom} ${4:left}" ],
+		"description": "e.g. margin 10px 20px 10px 20px"
+	},
+
+	"margin-right": {
+		"prefix": "margin-right",
+		"body": [ "margin-right ${1:value}" ],
+		"description": "e.g. margin-right 2em"
+	},
+
+	"margin-top": {
+		"prefix": "margin-top",
+		"body": [ "margin-top ${1:value}" ],
+		"description": "e.g.  margin-top 3em"
+	},
+
+	"margin-left": {
+		"prefix": "margin-left",
+		"body": [ "margin-left ${1:value}" ],
+		"description": "e.g. margin-left 2em"
+	},
+
+	"margin-bottom": {
+		"prefix": "margin-bottom",
+		"body": [ "margin-bottom ${1:value}" ],
+		"description": "e.g. margin-bottom 3em"
+	},
+
+	"max-height": {
+		"prefix": "max-height",
+		"body": [ "max-height ${1:value}" ],
+		"description": "e.g. max-height 150px"
+	},
+
+	"max-width": {
+		"prefix": "max-width",
+		"body": [ "max-width ${1:value}" ],
+		"description": "e.g. max-width 250px"
+	},
+
+	"min-width": {
+		"prefix": "min-width",
+		"body": [ "min-width ${1:value}" ],
+		"description": "e.g. min-width 80px"
+	},
+
+	"min-height": {
+		"prefix": "min-height",
+		"body": [ "min-height ${1:value}" ],
+		"description": "e.g. min-height 55px"
+	},
+
+	"opacity": {
+		"prefix": "opacity",
+		"body": [ "opacity ${1:value}" ],
+		"description": "e.g. opacity 1"
+	},
+
+	"outline": {
+		"prefix": "outline",
+		"body": [ "outline ${1:none}" ],
+		"description": "e.g. outline none"
+	},
+
+	"overflow": {
+		"prefix": "overflow",
+		"body": [ "overflow ${1:hidden}" ],
+		"description": "e.g. overflow hidden"
+	},
+
+	"overflow-x": {
+		"prefix": "overflow-x",
+		"body": [ "overflow-x ${1:hidden}" ],
+		"description": "e.g. overflow-x hidden"
+	},
+
+	"overflow-y": {
+		"prefix": "overflow-y",
+		"body": [ "overflow-y ${1:hidden}" ],
+		"description": "e.g. overflow-y hidden"
+	},
+
+	"padding": {
+		"prefix": "padding",
+		"body": [ "padding ${1:top} ${2:right} ${3:bottom} ${4:left}" ],
+		"description": "e.g. padding 10px 20px 10xp 20px"
+	},
+
+	"padding-right": {
+		"prefix": "padding-right",
+		"body": [ "padding-right ${1:value}" ],
+		"description": "e.g. padding-right 10px"
+	},
+
+	"padding-top": {
+		"prefix": "padding-top",
+		"body": [ "padding-top ${1:value}" ],
+		"description": "e.g. padding-top 10px"
+	},
+
+	"padding-left": {
+		"prefix": "padding-left",
+		"body": [ "padding-left ${1:value}" ],
+		"description": "e.g. padding-left 10px"
+	},
+
+	"padding-bottom": {
+		"prefix": "padding-bottom",
+		"body": [ "padding-bottom ${1:value}" ],
+		"description": "e.g. padding-bottom 10px"
+	},
+
+	"position": {
+		"prefix": "position",
+		"body": [ "position ${1:absolute}" ],
+		"description": "e.g. position absolute"
+	},
+
+	"right": {
+		"prefix": "right",
+		"body": [ "right ${1:0px}" ],
+		"description": "e.g. right 10px"
+	},
+
+	"resize": {
+		"prefix": "resize",
+		"body": [ "resize ${1:none}" ],
+		"description": "e.g. resize none"
+	},
+
+	"text-align": {
+		"prefix": "text-align",
+		"body": [ "text-align ${1:center}" ],
+		"description": "e.g. text-align center"
+	},
+
+	"text-decoration": {
+		"prefix": "text-decoration",
+		"body": [ "text-decoration ${1:none}" ],
+		"description": "e.g. text-decoration none"
+	},
+
+	"text-indent": {
+		"prefix": "text-indent",
+		"body": [ "text-indent ${1:value}" ],
+		"description": "e.g. text-indent 2px"
+	},
+
+	"text-overflow": {
+		"prefix": "text-overflow",
+		"body": [ "text-overflow ${1:ellipsis}" ],
+		"description": "e.g. text-overflow ellipsis"
+	},
+
+	"text-transform": {
+		"prefix": "text-transform",
+		"body": [ "text-transform ${1:uppercase}" ],
+		"description": "e.g. text-transform uppercase"
+	},
+
+	"text-shadow": {
+		"prefix": "text-shadow",
+		"body": [ "text-shadow ${1:x} ${2:y} ${3:spread} ${4:color}" ],
+		"description": "e.g. text-shadow 1px 1px 1px #000"
+	},
+
+	"top": {
+		"prefix": "top",
+		"body": [ "top ${1:0px}" ],
+		"description": "e.g. top 10px"
+	},
+
+	"transform": {
+		"prefix": "transform",
+		"body": [ "transform ${1:function}" ],
+		"description": "e.g. transform scale(0)"
+	},
+
+	"transition": {
+		"prefix": "transition",
+		"body": [ "transition ${1:duration} ${2:property} ${3:timing-function}" ],
+		"description": "e.g. transition .3s all ease"
+	},
+
+	"vertical-align": {
+		"prefix": "vertical-align",
+		"body": [ "vertical-align ${1:middle}" ],
+		"description": "e.g. vertical-align middle"
+	},
+
+	"visibility": {
+		"prefix": "visibility",
+		"body": [ "visibility ${1:hidden}" ],
+		"description": "e.g. visibility hidden"
+	},
+
+	"white-space": {
+		"prefix": "white-space",
+		"body": [ "white-space ${1:nowrap}" ],
+		"description": "e.g. white-space nowrap"
+	},
+
+	"width": {
+		"prefix": "width",
+		"body": [ "width ${1:value}" ],
+		"description": "e.g. width 250px"
+	},
+
+	"word-break": {
+		"prefix": "word-break",
+		"body": [ "word-break ${1:break-all}" ],
+		"description": "e.g. word-break break-all"
+	},
+
+	"word-wrap": {
+		"prefix": "word-wrap",
+		"body": [ "word-wrap ${1:break-word}" ],
+		"description": "e.g. word-wrap break-word"
+	},
+
+	"z-index": {
+		"prefix": "z-index",
+		"body": [ "z-index ${1:value}" ],
+		"description": "e.g. z-index 100"
+	},
+
+	"user-select": {
+		"prefix": "user-select",
+		"body": [ "user-select ${1:none}" ],
+		"description": "e.g. user-select none"
+	},
+
+	"backface-visibility": {
+		"prefix": "backface-visibility",
+		"body": [ "backface-visibility ${1:value}" ],
+		"description": "e.g. backface-visibility visible | hidden | inherit"
+	},
+
+	"background-clip": {
+		"prefix": "background-clip",
+		"body": [ "background-clip ${1:value}" ],
+		"description": "e.g. background-clip border-box | padding-box | content-box | inherit"
+	},
+
+	"background-origin": {
+		"prefix": "background-origin",
+		"body": [ "background-origin ${1:value}" ],
+		"description": "e.g. background-origin border-box | padding-box | content-box | inherit"
+	},
+
+	"background-blend-mode": {
+		"prefix": "background-blend-mode",
+		"body": [ "background-blend-mode ${1:value}" ],
+		"description": "e.g. background-blend-mode screen | multiply | overlay | darken | lighten | exclusion | ..."
+	},
+
+	"border-image": {
+		"prefix": "border-image",
+		"body": [ "border-image ${1:source} ${2:slice} ${3:width} ${4:repeat}" ],
+		"description": "e.g. border-image url(border.png) 25 25 round;"
+	},
+
+	"flex": {
+		"prefix": "flex",
+		"body": [ "flex ${1:value}" ],
+		"description": "e.g. flex none"
+	},
+
+	"flex-basis": {
+		"prefix": "flex-basis",
+		"body": [ "flex-basis ${1:value}" ],
+		"description": "e.g. flex-basis 200px"
+	},
+
+	"flex-direction": {
+		"prefix": "flex-direction",
+		"body": [ "flex-direction ${1:value}" ],
+		"description": "e.g. flex-direction row | row-reverse | column | column-reverse"
+	},
+
+	"flex-flow": {
+		"prefix": "flex-flow",
+		"body": [ "flex-flow ${1:value}" ],
+		"description": "e.g. flex-flow row wrap"
+	},
+
+	"flex-grow": {
+		"prefix": "flex-grow",
+		"body": [ "flex-grow ${1:value}" ],
+		"description": "e.g. flex-grow 2"
+	}
+}
