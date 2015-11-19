@@ -1,7 +1,7 @@
 {
 	"name": "stylus",
 	"description": "Stylus Language Support",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"publisher": "Alan",
 	"icon": "images/stylus_icon.svg",
 	"galleyBanner": {
